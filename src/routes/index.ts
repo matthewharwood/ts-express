@@ -1,9 +1,9 @@
 import { Express } from 'express';
-import { IndexController } from '../controllers/index.controller';
+import IndexController from '../controllers/index.controller';
 
 
 export default class IndexRouter {
   constructor(app: Express) {
-    app.route('/').get(IndexController.read);
+    app.route('/countries').get(IndexController.read);
   }
 }
