@@ -10,9 +10,19 @@
   "author": "matthewharwood",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^8.0.19",
+    "@types/ramda": "^0.24.6",
+    "body-parser": "^1.17.2",
     "concurrently": "^3.5.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
     "express": "^4.15.3",
+    "glob": "^7.1.2",
+    "http-status-codes": "^1.2.0",
+    "morgan": "^1.8.2",
     "nodemon": "^1.11.0",
+    "path": "^0.12.7",
+    "ramda": "^0.24.1",
     "tslint": "^5.5.0",
     "typescript": "^2.4.2"
   }
