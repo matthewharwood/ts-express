@@ -16,7 +16,7 @@ prerendering on the client app.
 
 This package has a `cors` activated so that the front end has an open localhost
 api.  that will be the response to the frontend.
-
+```
 ┌────────────────────────────────────────────────────────────────────────────────────┐
 │Step 1:                                                                             │
 │                                                                                    │
@@ -40,3 +40,4 @@ api.  that will be the response to the frontend.
 │ └────────────────┘              └────────────────┘            └──────────────────┘ │
 │                                                                                    │
 └────────────────────────────────────────────────────────────────────────────────────┘
+```
